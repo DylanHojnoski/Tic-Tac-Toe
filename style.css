@@ -5,7 +5,20 @@
 }
 
 main {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    justify-content: center;
+    width: 50vh;
+    height: 50vh;
+}
+
+.square {
+    outline: 1px solid #000000;
+    text-align: center;
+    padding: 0px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
-    flex-basis: 33%;
+    align-items: center;
 }
