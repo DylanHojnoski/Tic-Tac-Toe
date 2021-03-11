@@ -24,6 +24,7 @@ const board = (() => {
         if(boardArray[index].textContent == "" && !winGame)
         {
             boardArray[index].textContent = type;
+            checkWin(index);
             if(type == "X")
             {
                 type = "O";
@@ -32,7 +33,6 @@ const board = (() => {
             {
                 type = "X";
             }
-            checkWin(index);
         }
         
     };
