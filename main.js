@@ -74,6 +74,7 @@ const board = (() => {
             winGame = false;
             type = "X";
             board.create();
+            counter = 0;
         });
 
         winScreen.append(h1);
@@ -104,6 +105,7 @@ const board = (() => {
             winGame = false;
             type = "X";
             board.create();
+            counter = 0;
         });
 
         winScreen.append(h1);
