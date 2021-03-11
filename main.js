@@ -32,8 +32,9 @@ const board = (() => {
             {
                 type = "X";
             }
+            checkWin(index);
         }
-        checkWin(index);
+        
     };
 
     const create = () => {
